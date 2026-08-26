@@ -33,6 +33,5 @@ generate
     FA_Gate FA (.a(a[i]), .b(b[i]), .cin(c[i]), .sum(sum[i]), .cout(c[i+1]));
   end
 endgenerate
-
 assign cout = c[64];
 endmodule
