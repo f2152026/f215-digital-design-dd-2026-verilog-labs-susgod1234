@@ -35,5 +35,4 @@ generate
 endgenerate
 
 assign cout = c[64];
-
 endmodule
